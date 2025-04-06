@@ -1,11 +1,10 @@
-void main() {
-  int uang = 5000;
+void luasKubus(panjang, lebar) {
+  print(
+      ' Hasil hitung kubus yang memiliki $panjang dan $lebar adalah ${panjang * lebar}');
+}
 
-  if (uang > 5000) {
-    print(' Banyak bangett');
-  } else if (uang < 5000) {
-    print('dikit bangett');
-  } else {
-    print(' kerja boss ');
-  }
+void main() {
+  var panjang = 5;
+  var lebar = 7;
+  luasKubus(panjang, lebar);
 }
